@@ -18,17 +18,17 @@ nav {
   display: flex;
   justify-content: center;
   padding: 20px 0px;
-  background-color: aqua;
+  background-color: rgb(129, 149, 120);
 }
 
 nav a {
   display: block;
-  color: black;
+  color: rgb(31, 24, 17);
   text-decoration: none;
   margin: 0 10px;
   font-size: 1.5rem;
 }
 nav a:hover {
-  color: green;
+  color: rgb(142, 67, 20);
 }
 </style>
