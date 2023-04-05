@@ -1,0 +1,11 @@
+<template>
+  Aufgabe 1
+</template>
+
+<script setup>
+
+</script>
+
+<style>
+
+</style>
