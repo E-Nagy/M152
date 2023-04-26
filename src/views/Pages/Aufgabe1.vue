@@ -63,7 +63,9 @@ div {
 }
 
 button {
-    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
     font-weight: bold;
     font-size: medium;
     margin-top: 30px;
