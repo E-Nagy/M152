@@ -4,7 +4,7 @@
 <template>
     <main>
         <svg height="210" width="500">
-            <polygon points="100,10 40,198 190,78 10,78 160,198" style="fill:gold;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+            <polygon points="100,10 40,198 190,78 10,78 160,198" style="fill:gold;stroke:antiquewhite;stroke-width:5;fill-rule:evenodd;" />
         </svg>
     </main>
 </template>

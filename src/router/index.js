@@ -3,6 +3,8 @@ import HomeView from '../views/HomeView.vue'
 import Page1 from '../views/Pages/Page1.vue'
 import Aufgabe1 from '../views/Pages/Aufgabe1.vue'
 import Aufgabe2 from '../views/Pages/Aufgabe2.vue'
+import RWD from '../views/Pages/RWD.vue'
+import Profile from '../views/Pages/Profile.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -21,6 +23,16 @@ const router = createRouter({
       path: '/aufgabe2',
       name: 'Aufgabe 2',
       component: Aufgabe2,
+    },
+    {
+      path: '/rwd',
+      name: 'RWD',
+      component: RWD,
+    },
+    {
+      path: '/profile',
+      name: 'Profile',
+      component: Profile,
     }
   ]
 })
