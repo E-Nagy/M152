@@ -8,10 +8,19 @@ import { RouterLink, RouterView } from 'vue-router'
       <RouterLink to="/">Home</RouterLink>
       <RouterLink to="/aufgabe1">Aufgabe 1</RouterLink>
       <RouterLink to="/aufgabe2">Aufgabe 2</RouterLink>
+      <RouterLink to="/rwd">RWD</RouterLink>
+      <RouterLink to="/profile">Profile</RouterLink>
+      <RouterLink to="/kasse">Kasse</RouterLink>
     </nav>
   </header>
 
   <RouterView />
+
+  <dialog>
+    Sind sie sic sicer?? <br>
+    
+  </dialog>
+
 </template>
 
 <style scoped>
@@ -19,7 +28,7 @@ nav {
   display: flex;
   justify-content: center;
   padding: 20px 0px;
-  background-color: rgb(129, 149, 120);
+  background-color: rgb(135, 154, 117);
 }
 
 nav a {

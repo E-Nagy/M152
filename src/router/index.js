@@ -5,6 +5,7 @@ import Aufgabe1 from '../views/Pages/Aufgabe1.vue'
 import Aufgabe2 from '../views/Pages/Aufgabe2.vue'
 import RWD from '../views/Pages/RWD.vue'
 import Profile from '../views/Pages/Profile.vue'
+import Kasse from '../views/Pages/Kasse.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -33,6 +34,11 @@ const router = createRouter({
       path: '/profile',
       name: 'Profile',
       component: Profile,
+    },
+    {
+      path: '/kasse',
+      name: 'Kasse',
+      component: Kasse,
     }
   ]
 })
